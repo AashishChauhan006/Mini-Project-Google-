@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* to hide scrollbar in whole page */
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+
+.navigation {
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.nav-logo img {
+    width: 170px;
+    height: 68px;
+    object-fit: cover;
+}
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-link a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.section1 {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.heading1 {
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 0 38vw;
+}
+
+.sec1-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.sec1-nav a {
+    color: black;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: none;
+}
+
+.bus img {
+    width: 100%;
+    height: 574px;
+    object-fit: cover;
+    object-position: 0 -1410px;
+}
+
+
+
+.rent-box {
+    position: absolute;
+    top: 490px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    gap: 24px;
+    padding: 60px 80px;
+    width: 480px;
+    border-radius: 0px 60px 60px 0px;
+    background-color: white;
+}
+
+.rent-heading {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.rent-para {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.img-nav {
+    position: relative;
+    top: -140px;
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-between;
+}
+
+.img-nav img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.img-nav button {
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.80);
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.univ-card {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+    padding-bottom: 60px;
+    width: 413px;
+    border-radius: 60px;
+    background: var(--BG, #F2F0F2);
+    position: relative;
+
+}
+
+
+
+.card-box {
+    padding: 10px 80px;
+    border-radius: 12px;
+    background: #E2F1E8;
+    position: absolute;
+    top: 275px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.univ-card img {
+    width: 413px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 60px 60px 0 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.info {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.info-heading {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.info-para {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.time {
+    display: flex;
+    padding: 0px 32px;
+    align-items: center;
+    gap: 12px;
+}
+
+.time img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+
+}
+
+.read-time {
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.load-more button {
+    padding: 12px 40px;
+    border-radius: 40px;
+    background: #064749;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 140px 0;
+}
+
+.heading3 {
+    color: black;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.featured-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    overflow-x: scroll;
+
+    padding: 0 20px;
+}
+
+
+/* to hide scrollbar in featured-card */
+.featured-card::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+/* .featured-card:hover{
+    animation-play-state: paused;
+}
+
+
+@keyframes featured-scroll {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    font-family: 'Lato', sans-serif;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact>img {
+    width: 170px;
+    height: 68px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+footer table {
+    width: 400px;
+    height: 150px;
+    text-align: left;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.subscribe>div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.subscribe button {
+    display: flex;
+    padding: 12px 40px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 40px;
+    background: #064749;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.subscribe input {
+    display: flex;
+    padding: 12px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #F2F0F2;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #49735A;
+}
+
+.table-head,
+.sub-head {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.table-element,
+.sub-para {
+    font-size: 18px;
+    font-weight: 400;
+}
